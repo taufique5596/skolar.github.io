@@ -12,7 +12,9 @@
       new Route('blog-details-1', 'blog-details-1.html'),
       new Route('single-course-placement-training','single-course-placement-training.html'),
       new Route('single-course-test-series','single-course-test-series.html'),
-      new Route('single-course-cocubes','single-course-cocubes.html')
+      new Route('single-course-cocubes','single-course-cocubes.html'),
+      new Route('termsandconditions','terms.html'),
+      new Route('privacy','privacy.html')
     ]);
   }
 
