@@ -14,7 +14,8 @@
       new Route('single-course-test-series','single-course-test-series.html'),
       new Route('single-course-cocubes','single-course-cocubes.html'),
       new Route('termsandconditions','terms.html'),
-      new Route('privacy','privacy.html')
+      new Route('privacy','privacy.html'),
+      new Route('faq','faq.html')
     ]);
   }
 
