@@ -2,7 +2,6 @@
   html {
     box-sizing: border-box;
   }
-
   *,
   *:before,
   *:after {
@@ -11,7 +10,7 @@
 
   .column {
     float: left;
-    width: 33.3%;
+    width: 50%;
     margin-bottom: 16px;
     padding: 0 8px;
   }
@@ -19,7 +18,7 @@
   @media screen and (max-width: 650px) {
     .column {
       width: 100%;
-      display: block;
+      display: inline-block;
     }
   }
 
@@ -29,6 +28,7 @@
 
   .container {
     padding: 0 16px;
+    width: 700px;
   }
 
   .container::after,
@@ -42,22 +42,22 @@
     color: grey;
   }
 
-  .button {
-    border-radius: 4px;
+  /* .button {
+    border-radius: 6px;
     border: none;
     outline: 0;
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: #000;
+    background-color: rgb(248, 105, 80);
     text-align: center;
     cursor: pointer;
     width: 100%;
   }
 
   .button:hover {
-    background-color: #555;
-  }
+    background-color: #3762f0;
+  } */
 </style>
 
 <div>
@@ -66,7 +66,7 @@
   </h3>
 </div>
 
-<div class="container section-heading">
+<div class="container section-heading" style="margin-bottom: 10px;">
   <!-- ABOUT US -->
   <div class="panel single-accordion">
     <h6>
@@ -95,7 +95,7 @@
 </div>
 <div>
   <h3 class="d-flex justify-content-center" style="line-height: 3.2;">
-   Meet the team
+    Meet the team
   </h3>
 </div>
 
@@ -109,42 +109,56 @@
     <div class="row">
       <div class="column">
         <div class="card">
-          <img src="img/taufeeq.jpg" alt="Jane" style="width: 100%; padding: 10px; border-radius: 10px;" />
+          <img
+            src="img/taufeeq.jpg"
+            alt="Jane"
+            style="width: 100%; padding: 10px; border-radius: 10px;"
+          />
           <div class="container">
-            <h2>Jane Doe</h2>
-            <p class="title">CEO & Founder</p>
-            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-            <p>example@example.com</p>
-            <p><button class="button">Contact</button></p>
+            <h2>Taufeeq Ahmad</h2>
+            <p class="title">CEO & Co-Founder</p>
+            <p>taufique@skolar.in</p>
           </div>
         </div>
       </div>
 
       <div class="column">
         <div class="card">
-          <img src="img/taufeeq.jpg" alt="Mike" style="width: 100%; padding: 10px; border-radius: 10px;" />
+          <img
+            src="img/muskan.jpg"
+            alt="Mike"
+            style="width: 100%; padding: 10px; border-radius: 10px;"
+          />
           <div class="container">
-            <h2>Mike Ross</h2>
-            <p class="title">Art Director</p>
-            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-            <p>example@example.com</p>
-            <p><button class="button">Contact</button></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="column">
-        <div class="card">
-          <img src="img/taufeeq.jpg" alt="John" style="width: 100%; padding: 10px; border-radius: 10px;" />
-          <div class="container">
-            <h2>John Doe</h2>
-            <p class="title">Designer</p>
-            <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-            <p>example@example.com</p>
-            <p><button class="button">Contact</button></p>
+            <h2>Muskan Rastogi</h2>
+            <p class="title">COO & Co-Founder</p>
+            <p>muskan@skolar.in</p>
           </div>
         </div>
       </div>
     </div>
   </div>
-</section >
+</section>
+
+<!-- mission and vision  -->
+<section
+  class="register-now section-padding-100-0 d-flex justify-content-between"
+>
+  <div class="register-now-countdown mb-100" data-wow-delay="500ms">
+    <h3>Mission</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum
+      laoreet elit, sit amet tincidunt mauris ultrices vitae. Donec bibendum
+      tortor sed mi faucibus vehicula. Sed erat lorem
+    </p>
+  </div>
+
+  <div class="register-now-countdown mb-100" data-wow-delay="500ms">
+    <h3>Vision</h3>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi fermentum
+      laoreet elit, sit amet tincidunt mauris ultrices vitae. Donec bibendum
+      tortor sed mi faucibus vehicula. Sed erat lorem
+    </p>
+  </div>
+</section>
