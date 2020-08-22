@@ -15,7 +15,10 @@
       new Route('elitmus','elitmus.html'),
       new Route('termsandconditions','terms.html'),
       new Route('privacy','privacy.html'),
-      new Route('faq','faq.html')
+      new Route('faq','faq.html'),
+      new Route('blog-1','blog-1.html'),
+      new Route('blog-2','blog-2.html'),
+      new Route('blog-4','blog-4.html')
     ]);
   }
 
