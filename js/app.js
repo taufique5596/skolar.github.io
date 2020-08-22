@@ -18,7 +18,10 @@
       new Route('faq','faq.html'),
       new Route('blog-1','blog-1.html'),
       new Route('blog-2','blog-2.html'),
-      new Route('blog-4','blog-4.html')
+      new Route('blog-4','blog-4.html'),
+      new Route('blog-5','blog-5.html'),
+      new Route('blog-7','blog-7.html'),
+      new Route('blog-8','blog-8.html')
     ]);
   }
 
