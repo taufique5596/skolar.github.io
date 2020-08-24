@@ -862,14 +862,14 @@ textarea:focus {
 }
 .single-popular-course .seat-rating-fee .course-fee a {
   display: inline-block;
-  width: 70px;
+  width: 120px;
   height: 40px;
   border-radius: 0 0 6px 0;
   background-color: rgb(248, 105, 80);
   text-align: center;
   line-height: 40px;
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 600;
   text-transform: uppercase;
   color: #ffffff;
   letter-spacing: 0.75px;
@@ -933,11 +933,11 @@ textarea:focus {
   color: #000;
 }
 .single-course-intro .single-course-intro-content .price {
-  font-size: 12px;
+  font-size: 17px;
   text-transform: uppercase;
   color: #3762f0;
   letter-spacing: 0.75px;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .course--content {
