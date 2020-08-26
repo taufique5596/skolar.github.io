@@ -2,63 +2,59 @@
   html {
     box-sizing: border-box;
   }
-  *,
-  *:before,
-  *:after {
+  
+  *, *:before, *:after {
     box-sizing: inherit;
   }
-
+  
   .column {
     float: left;
     width: 33.3%;
     margin-bottom: 16px;
     padding: 0 8px;
   }
-
+  
   @media screen and (max-width: 650px) {
     .column {
       width: 100%;
-      display: inline-block;
+      display: block;
     }
   }
-
+  
   .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
-
+  
   .container {
     padding: 0 16px;
-    width: 100%;
   }
-
-  .container::after,
-  .row::after {
+  
+  .container::after, .row::after {
     content: "";
     clear: both;
     display: table;
   }
-
+  
   .title {
     color: grey;
   }
-
-  /* .button {
-    border-radius: 6px;
+  
+  .button {
     border: none;
     outline: 0;
     display: inline-block;
     padding: 8px;
     color: white;
-    background-color: rgb(248, 105, 80);
+    background-color: #000;
     text-align: center;
     cursor: pointer;
     width: 100%;
   }
-
+  
   .button:hover {
-    background-color: #3762f0;
-  } */
-</style>
+    background-color: #555;
+  }
+  </style>
 
 <div>
   <h3 class="d-flex justify-content-center" style="line-height: 3.2;">
@@ -107,7 +103,7 @@
       Meet the team
     </h3>
   </div>
-  <div class="container" style="width: 990px;">
+  <div class="container">
     
 
     <div class="row">
@@ -116,7 +112,7 @@
           <img
             src="img/tau2.jpg"
             alt="Jane"
-            style="width: 100%; padding: 10px; border-radius: 10px;"
+           
           />
           <div class="container">
             <h4>Taufeeq Ahmad</h4>
@@ -130,7 +126,7 @@
           <img
             src="/img/WhatsApp Image 2020-08-21 at 20.14.jpg"
             alt="Mike"
-            style="width: 100%; padding: 10px; border-radius: 10px;"
+            
           />
           <div class="container">
             <h4>Muskan Rastogi</h4>
@@ -144,7 +140,7 @@
           <img
             src="img/taha.jpg"
             alt="Mike"
-            style="width: 100%; padding: 10px; border-radius: 10px;"
+           
           />
           <div class="container">
             <h4>Taha Maknoo</h4>
