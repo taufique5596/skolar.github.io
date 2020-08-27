@@ -22,6 +22,7 @@ html {
 }
 
 body {
+
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
@@ -78,9 +79,9 @@ h6 {
 
 #hero-para {
   font-family: "raleway", sans-serif;
-  color: white;
+  color: rgb(0, 0, 0);
 
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1.8;
   font-weight: 400;
 }
@@ -794,14 +795,14 @@ textarea:focus {
   position: relative;
   z-index: 2;
   width: 100%;
-  height: 800px;
+  height: 600px;
   background-attachment: fixed;
 }
 .hero-area .hero-content h2 {
-  font-size: 40px;
+  font-size: 35px;
   margin-bottom: 30px;
   font-weight: 700;
-  color: #ffffff;
+  color: #383838;
 }
 
 /* :: 6.0 Cool Facts Area */
