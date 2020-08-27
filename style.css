@@ -803,6 +803,7 @@ textarea:focus {
   margin-bottom: 30px;
   font-weight: 700;
   color: #383838;
+ 
 }
 
 /* :: 6.0 Cool Facts Area */
@@ -812,6 +813,7 @@ textarea:focus {
   padding: 30px;
   border: 1px solid #ebebeb;
   border-radius: 6px;
+  
 }
 .single-cool-facts-area img {
   display: block;
