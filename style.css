@@ -2718,7 +2718,7 @@ textarea:focus {
 
 }
 
-label.logo{
+/* label.logo{
   line-height: 80px;
   padding: 0 100px;
 }
@@ -2759,7 +2759,7 @@ nav .ul li a:hover{
 }
 
 @media (max-width: 952px){
-  label.logo{
+  label.logo{ 
     font-size: 30px;
     padding-left: 50px;
   }
@@ -2798,4 +2798,4 @@ nav .ul li a:hover{
   }
 }
 
-
+ */
