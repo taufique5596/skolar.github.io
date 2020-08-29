@@ -2824,6 +2824,7 @@ input[type="checkbox"] {
 }
 
 .logo-img {
-  height: 84px;
+  height: 85px;
+  padding-top: 10px;
   max-width: 100%;
 }
