@@ -26,11 +26,19 @@
   }
 
   function setMenuActiveClass() {
-    $('#topheader .classynav li').on('click', function () {
-      $('#topheader .classynav').find('li a.active').removeClass('active');
-      $(this).find('a:first').addClass('active')
+    $('.navigation nav li').on('click', function () {
+      $('.navigation nav').find('li a.active').removeClass('active');
+      $(this).find('a:first').addClass('active');
+    });
+  }
+
+  function navigateToHome() {
+    $('.logo').on('click', function () {
+      $('.navigation nav').find('li a.active').removeClass('active');
+      $('#homeMenu').addClass('active');
     });
   }
   init();
   setMenuActiveClass();
+  navigateToHome();
 }());

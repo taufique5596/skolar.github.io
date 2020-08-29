@@ -6,11 +6,11 @@
       name="description"
       content="Skolar is an online learning platform intended To Help Students And Professionals Get Placed In Their Dream Companies with our program and best mentors in town."
     />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    /> 
+    />
     <title>SKOLAR</title>
     <link rel="icon" href="img/core-img/favicon1.ico" />
 
@@ -26,63 +26,33 @@
       href="https://fonts.googleapis.com/css?family=Noto_Sans_TC"
     />
     <script src="js/validation-functions.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
 
   <body>
     <header id="topheader" class="header-area">
       <!-- Navbar Area -->
-      <div class="clever-main-menu">
-        <div class="classy-nav-container breakpoint-off">
+      <!-- <div class="clever-main-menu"> -->
+        <!-- <div class="classy-nav-container breakpoint-off"> -->
           <!-- Menu -->
-          <nav
-            class="classy-navbar justify-content-between"
-            id="cleverNav"
-            style="position: fixed;"
-          >
-            <!-- style="background-color:rgba(236, 236, 236, 1) -->
-
-            <!-- Logo -->
-            <a class="nav-brand" href="index.html"
-              ><img
-                src="img/core-img/logo.png"
-                style="left: 1%; position: fixed; height: 60px; top: 10px;"
-              />
-            </a>
-            <!-- <a class="nav-band" id="logo-text" href="#home">SKOLAR</a> -->
-
-            <!-- Navbar Toggler -->
-            <div class="classy-navbar-toggler">
-              <span class="navbarToggler"
-                ><span></span><span></span><span></span
-              ></span>
-            </div>
-
-            <!-- Menu -->
-            <div class="classy-menu">
-              <!-- Close Button -->
-              <div class="classycloseIcon">
-                <div class="cross-wrap">
-                  <span class="top"></span><span class="bottom"></span>
-                </div>
-              </div>
-
-              <!-- Nav Start -->
-              <div class="classynav">
-                <ul>
-                  <li><a class="active" href="#home">Home</a></li>
-
-                  <li><a href="#courses">Courses</a></li>
-                  <!-- <li><a href="#instructor">Instructors</a></li> -->
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                  <li><a href="#blog">Blog</a></li>
-                </ul>
-              </div>
-              <!-- Nav End -->
-            </div>
+          <div class="navigation">
+          <nav>
+            <div class="logo"><a href="#home"><img class="logo-img" src="logo.png" alt=""></a></div>
+            <input type="checkbox" id="click" />
+            <label for="click" class="menu-btn">
+              <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+              <li><a class="active" href="#home" id="homeMenu">Home</a></li>
+              <li><a href="#courses" id="coursesMenu">Courses</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#blog">Blog</a></li>
+            </ul>
           </nav>
         </div>
-      </div>
+        <!-- </div> -->
+      <!-- </div> -->
     </header>
     <!-- ##### Header Area End ##### -->
 
@@ -197,37 +167,7 @@
     <!--End of Tawk.to Script-->
 
     <!--timer starts-->
-    <script>
-      // Set the date we're counting down to
-      var countDownDate = new Date("oct 1, 2020 15:37:25").getTime();
 
-      // Update the count down every 1 second
-      var x = setInterval(function () {
-        // Get today's date and time
-        var now = new Date().getTime();
-
-        // Find the distance between now and the count down date
-        var distance = countDownDate - now;
-
-        // Time calculations for days, hours, minutes and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor(
-          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-        );
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        // Output the result in an element with id="demo"
-        document.getElementById("demo").innerHTML =
-          days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-
-        // If the count down is over, write some text
-        if (distance < 0) {
-          clearInterval(x);
-          document.getElementById("demo").innerHTML = "EXPIRED";
-        }
-      }, 1000);
-    </script>
     <!-- timer ends -->
   </body>
 </html>
