@@ -2776,9 +2776,11 @@ input[type="checkbox"] {
 }
 @media (max-width: 1000px) {
   .navigation nav {
-    padding: 0 40px 0 50px;
+    padding: 0 40px 0 0px;
   }
 }
+
+
 @media (max-width: 920px) {
   .navigation nav .menu-btn i {
     display: block;
