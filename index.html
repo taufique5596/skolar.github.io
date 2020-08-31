@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head lang="en">
+    <!-- google analytics start -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5YB03K7CG2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-5YB03K7CG2");
+    </script>
+    <!-- google analytics end  -->
     <meta charset="UTF-8" />
     <meta
       name="description"
@@ -35,10 +48,12 @@
       <!-- <div class="clever-main-menu"> -->
       <!-- <div class="classy-nav-container breakpoint-off"> -->
       <!-- Menu -->
-      <div class="navigation">
+      <div class="navigation" id="iot">
         <nav>
           <div class="logo">
-            <a href="#home"><img class="logo-img" src="/img/logo/logo1.png"  alt="" /></a>
+            <a href="#home"
+              ><img class="logo-img" src="/img/logo/logo1.png" alt=""
+            /></a>
           </div>
           <input type="checkbox" id="click" />
           <label for="click" class="menu-btn">
@@ -169,7 +184,6 @@
     <!--End of Tawk.to Script-->
 
     <!--timer starts-->
-    <!--timer starts-->
     <script>
       // Set the date we're counting down to
       var countDownDate = new Date("oct 1, 2020 15:37:25").getTime();
@@ -202,6 +216,17 @@
       }, 1000);
     </script>
     <!-- timer ends -->
-    <!-- timer ends -->
+    <script>
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function () {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementsById("iot").style.top = "0";
+        } else {
+          document.getElementsById("iot").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+      };
+    </script>
   </body>
 </html>
