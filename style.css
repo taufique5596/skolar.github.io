@@ -2834,6 +2834,23 @@ input[type="checkbox"] {
   max-width: 100%;
 }
 
+.call-to-action{
+  padding-top: 30px; 
+			letter-spacing: 1px;
+			background-color: #4CAF50;
+  border:2px solid black;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+	text-transform: uppercase;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+	border-radius: 6px;
+}
+
 .testim {
   width: 100%;
   background-image: url(img/core-img/texture.png);
@@ -3418,4 +3435,5 @@ input[type="checkbox"] {
     line-height: 25px;
   }
 }
+
 
