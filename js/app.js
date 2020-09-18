@@ -23,7 +23,8 @@
       new Route('blog-7','blog-7.html'),
       new Route('blog-8','blog-8.html'),
       new Route('test','test.html'),
-      new Route('elitmus-test','elitmus-test.html')
+      new Route('elitmus-test','elitmus-test.html'),
+      new Route('blog-9','blog-9.html')
     ]);
   }
 
