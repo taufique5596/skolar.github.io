@@ -58,6 +58,42 @@
     <script src="js/validation-functions.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+
+    <!-- Facebook Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "404373683885825");
+      fbq("track", "PageView");
+    </script>
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        src="https://www.facebook.com/tr?id=404373683885825&ev=PageView&noscript=1"/>
+    </noscript>
+    <!-- End Facebook Pixel Code -->
   </head>
 
   <body>
@@ -96,7 +132,7 @@
     <!-- ##### Header Area End ##### -->
 
     <div id="app" style="margin-top: 80px"></div>
-    
+
     <footer class="footer-area" style="margin-top: auto">
       <!-- Top Footer Area -->
       <div class="top-footer-area">
@@ -206,18 +242,5 @@
       })();
     </script>
     <!--End of Tawk.to Script-->
-
-    <!-- <script>
-      var prevScrollpos = window.pageYOffset;
-      window.onscroll = function () {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-          document.getElementsById("iot").style.top = "0";
-        } else {
-          document.getElementsById("iot").style.top = "-50px";
-        }
-        prevScrollpos = currentScrollPos;
-      };
-    </script> -->
   </body>
 </html>
