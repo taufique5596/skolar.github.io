@@ -24,6 +24,7 @@
       new Route('blog-8','blog-8.html'),
       new Route('test','test.html'),
       new Route('elitmus-test','elitmus-test.html'),
+      new Route('dsalgo','dsalgo.html'),
       new Route('blog-9','blog-9.html')
     ]);
   }
@@ -44,6 +45,8 @@
   init();
   setMenuActiveClass();
   navigateToHome();
+
+  
 }());
 
 
