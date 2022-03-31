@@ -25,7 +25,8 @@
       new Route('test','test.html'),
       new Route('elitmus-test','elitmus-test.html'),
       new Route('dsalgo','dsalgo.html'),
-      new Route('blog-9','blog-9.html')
+      new Route('blog-9','blog-9.html'),
+      new Route('PPPL2','PPPL2.HTML')
     ]);
   }
 
